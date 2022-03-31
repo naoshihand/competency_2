@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
 
-    <title>Position List</title>
+    <title>Dashboard</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/dashboard/">
 
@@ -17,8 +17,10 @@
     <!-- Custom styles for this template -->
     <link href="Assets/css/dashboard.css" rel="stylesheet">
 
-    
-
+    <!-- Tempus Dominus CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.0/css/tempusdominus-bootstrap-4.min.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
   </head>
 
   <body>
@@ -39,7 +41,7 @@
           <div class="sidebar-sticky pt-5 h-100">
             <ul class="nav flex-column">
               <li class="nav-item">
-                <a class="nav-link" href="dashboard.html">
+                <a class="nav-link active" href="dashboard.html">
                   <span data-feather="home"></span>
                   Dashboard
                 </a>
@@ -63,7 +65,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="Edit_add_position.html">
+                <a class="nav-link" href="Edit_add_position.html">
                   <span data-feather="clipboard"></span>
                   Position List
                 </a>
@@ -75,7 +77,7 @@
 
         <main role="main" class="p-3 mb-2 bg-light text-dark col-md-9 ml-sm-auto col-lg-10 pt-3 px-4"> 
           <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
-            <h1 class="h2">Position List</h1>
+            <h1 class="h2">Hello Naoshi Murata</h1>
             <div class="btn-toolbar mb-2 mb-md-0">
               <div class="btn-group mr-2">
 
@@ -93,7 +95,7 @@
                                         </button>
                                         </div>
                                         <div class="modal-body">
-                                        hi
+                                            hi
                                         </div>
                                         <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -112,45 +114,99 @@
                 This week
               </button>
             </div>
+
+            
+
           </div>
 
-
-          <div class="table-responsive">
-            <table class="table table-striped table-sm table-hover">
-              <thead>
-                <tr class="text-center">
-                  <th>Category</th>
-                  <th>Position Name</th>
-                </tr>
-              </thead>
-
-              <tbody class="text-center">               
-                    <tr>
-                        <td>Technical</td>
-                        <td>Analyst Programmer</td>
-                    </tr>
-                    
-              </tbody>
-            </table>
-            <div class="d-flex justify-content-center mt-3">
-              <button type="button" class="btn btn-outline-danger btn-primary align-items-center m-2" data-mdb-ripple-color="dark">Add New Position</button>
-              <button type="button" class="btn btn-outline-dark m-2" data-mdb-ripple-color="dark">Edit Position</button>
+        <div class="row">
+            <div class="card" style="width: 15rem; margin: 1rem;">
+                <div class="card-body text-center">
+                    <a href="dashboard.html">Dashboard</a>
+                </div>
             </div>
-          </div>
 
-          <nav aria-label="Page navigation example" class=" mt-5">
-            <ul class="pagination justify-content-center">
-              <li class="page-item disabled">
-                <a class="page-link" href="#" tabindex="-1">Previous</a>
-              </li>
-              <li class="page-item"><a class="page-link" href="#">1</a></li>
-              <li class="page-item"><a class="page-link" href="#">2</a></li>
-              <li class="page-item"><a class="page-link" href="#">3</a></li>
-              <li class="page-item">
-                <a class="page-link" href="#">Next</a>
-              </li>
-            </ul>
-          </nav>
+            <div class="card" style="width: 15rem; margin: 1rem">
+                <div class="card-body text-center">
+                    <a href="notification.html">Notification</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 15rem; margin: 1rem">
+                <div class="card-body text-center">
+                    <a href="add_form.html">Add Form</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="card" style="width: 15rem; margin: 1rem">
+                <div class="card-body text-center">
+                    <a href="Employee_list.html">Employee List</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 15rem; margin: 1rem">
+                <div class="card-body text-center">
+                    <a href="Edit_add_position.html">Position List</a>
+                </div>
+            </div>
+        </div>
+          
+
+
+          
+
+
+            <!-- 
+                Accordion Begin
+            -->
+         
+           <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+           <script src = "https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+              integrity = "sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+              crossorigin = "anonymous">
+           </script>
+           
+           <script src = "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" 
+              integrity = "sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" 
+              crossorigin = "anonymous">
+           </script>
+           
+           <script src = "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" 
+              integrity = "sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" 
+              crossorigin = "anonymous">
+           </script>
+
+           <script type="text/JavaScript">
+               function createNewElement() {
+                   //First create a div element
+                   var txtNewInputBox = document.createElement('div');
+
+                   //Then add the content (a new input box) of the element.
+                   txtNewInputBox.innerHTML = "<input type='text' id='newInputBox' class='form-group form-control ml-4' placeholder='option'>";
+
+                   //Finally put it where it is supposed to appear
+                   document.getElementById("newElementId").appendChild(txtNewInputBox);
+               }
+           </script>
+
+           <script type="text/JavaScript">
+               function createNewElement2() {
+                   //First create a div element
+                   var txtNewInputBox = document.createElement('div');
+
+                   //Then add the content (a new input box) of the element.
+                   txtNewInputBox.innerHTML = "<input type='text' id='newInputBox' class='form-group form-control ml-4' placeholder='option'>";
+
+                   //Finally put it where it is supposed to appear
+                   document.getElementById("newElementId_2").appendChild(txtNewInputBox);
+               }
+           </script>
+
+        <!-- 
+          Accordion End 
+        -->
 
         </main>
       </div>
@@ -200,7 +256,21 @@
           }
         }
       });
+
+      
     </script>
+
+    <!-- Tempus Dominus Script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js" integrity="sha512-rmZcZsyhe0/MAjquhTgiUcb4d9knaFc7b5xAfju483gbEXTkeJRUMIPk6s3ySZMYUHEcjKbjLjyddGWMrNEvZg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/locale/ja.min.js" integrity="sha512-rElveAU5iG1CzHqi7KbG1T4DQIUCqhitISZ9nqJ2Z4TP0z4Aba64xYhwcBhHQMddRq27/OKbzEFZLOJarNStLg==" crossorigin="anonymous"></script>
+    <!-- Moment.js -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.0/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <script src="js/jquery.min.js+popper.js.pagespeed.jc.FwalQSCN9i.js"></script><script>eval(mod_pagespeed_0bvivChm31);</script>
+    <script>eval(mod_pagespeed_v_y5QIQ9DI);</script>
+    <script src="js/bootstrap.min.js+main.js.pagespeed.jc.K9PWpnUNby.js"></script><script>eval(mod_pagespeed_vdqlFVnOo$);</script>
+    <script>eval(mod_pagespeed_vx_DpWBaBG);</script>
+    <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"6ec048e42e2c7c5b","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.12.0","si":100}' crossorigin="anonymous"></script>
 
   </body>
 </html>
